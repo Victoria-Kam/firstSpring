@@ -1,4 +1,4 @@
-package com.company.greeting.later;
+package com.company.greeting;
 
 import com.company.service.Greetingable;
 

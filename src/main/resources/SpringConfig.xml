@@ -9,6 +9,21 @@
     <bean id="greetingPrint" class="com.company.GreetingPrint">
         <constructor-arg index="0" ref="greetingBelarus"/>
     </bean>
+
+    <bean id="greetingUSA" class="com.company.greeting.GreetingUSA">
+    </bean>
+
+    <bean id="greetingPrintUSA" class="com.company.GreetingPrint">
+        <constructor-arg index="0" ref="greetingUSA"/>
+    </bean>
+
+    <bean id="greetingJapan" class="com.company.greeting.GreetingJapan">
+    </bean>
+
+    <bean id="greetingPrintJapan" class="com.company.GreetingPrint">
+        <constructor-arg index="0" ref="greetingJapan"/>
+    </bean>
+
  </beans>
 
 
